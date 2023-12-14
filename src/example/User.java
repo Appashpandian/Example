@@ -2,7 +2,7 @@ package example;
 
 public class User {
 	
-	private String empMail;
+	
 	private String empName;
 	private String empUsername;
 	private String empPassword;
@@ -13,12 +13,7 @@ public class User {
 	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
-	public String getEmpMail() {
-		return empMail;
-	}
-	public void setEmpMail(String empMail) {
-		this.empMail = empMail;
-	}
+	
 	
 	public String getEmpUsername() {
 		return empUsername;
